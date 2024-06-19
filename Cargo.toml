@@ -1,0 +1,18 @@
+[package]
+name = "innit"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Autumn Baker <autumnbakerdev@gmail.com>" ]
+keywords = [ "git", "github", "cli" ]
+categories = [ "command-line-utilities" ]
+description = "An interactive commandline tool for quickly initialising git repositories, written in Rust."
+license = "MIT"
+repository = "https://github.com/oughtum/innit"
+readme = "README.md"
+
+[dependencies]
+chrono = "0.4.38"
+dialoguer = { version = "0.11.0", features = ["fuzzy-select"] }
+serde = { version = "1.0.203", features = ["derive"] }
+shellexpand = { version = "3.1.0", features = ["full"] }
+ureq = { version = "2.9.7", features = ["json"] }
