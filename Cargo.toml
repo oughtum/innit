@@ -9,6 +9,7 @@ description = "An interactive commandline tool for quickly initialising git repo
 license = "MIT"
 repository = "https://github.com/oughtum/innit"
 readme = "README.md"
+exclude = [ "innit.gif" ]
 
 [dependencies]
 chrono = "0.4.38"
