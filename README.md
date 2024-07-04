@@ -27,6 +27,9 @@ Below is the options you can change, their types, and their default values where
 
 ## Dependencies
 
+- cargo
+- git
+
 ## Installation
 
 ### Cargo
