@@ -6,6 +6,13 @@
 
 `innit` is a blazingly fast 🚀 commandline utility for initialising git repositories quickly and easily. I created this to solve the common problem of having to generate a `.gitignore`, `README.md` & `LICENSE` for most of the projects I make - this tool makes it trivial to set up that boilerplate for a new project.
 
+  NOTE: I am aware that the [Github CLI](https://cli.github.com/) provides this exact functionality when creating a new repository, however having this separate from the Github CLI is important to me for two reasons:
+
+- I might want to migrate to another VCS hosting solution in future, like GitLab
+- I abandon projects a lot (thanks ADHD), so I'd rather just be able to do `rm -rf local_repo/` than have to delete a remote repo, particularly if I don't have access to the internet for whatever reason
+
+I don't expect anybody to actually use this, I just made it for myself but if somebody out there finds it useful, then great!
+
 ## Features
 
 Below is the options you can change, their types, and their default values where applicable:
